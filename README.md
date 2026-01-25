@@ -73,3 +73,9 @@ flowchart LR
 📜 License
 
 MIT
+
+## 🤝 Contributing
+
+This project was developed as part of a guided curriculum from **Boot.dev**.
+
+While the overall structure and learning objectives were provided, the implementation, extensions, testing, and refinements reflect my own work and understanding. The project has been adapted and expanded beyond the base exercises to demonstrate practical, production-style AI agent architecture.
