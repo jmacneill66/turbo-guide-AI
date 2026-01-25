@@ -64,11 +64,11 @@ flowchart LR
 
 🎯 Why This Matters
 
-This project shows how to move from LLM demos to production-style AI systems that are:
-    -Safer
-    -More predictable
-    -Easier to test and maintain
-It reflects real-world concerns in applied AI engineering: observability, control, and security.
+    -This project shows how to move from LLM demos to production-style AI systems that are:
+        -Safer
+        -More predictable
+        -Easier to test and maintain
+    -It reflects real-world concerns in applied AI engineering: observability, control, and security.
 
 📜 License
 
