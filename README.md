@@ -41,26 +41,26 @@ flowchart LR
 
 📁 Project Structure
 
--main.py        # Agent loop + CLI entry point  
--functions/     # LLM-callable tools
--prompts.py     # System instructions
--config.py      # Shared configuration
--tests/         # Tool tests
+    -main.py        # Agent loop + CLI entry point  
+    -functions/     # LLM-callable tools
+    -prompts.py     # System instructions
+    -config.py      # Shared configuration
+    -tests/         # Tool tests
 
 ▶️ Example Usage
 
-Run a question through the agent:
-uv run main.py "what files are in the calculator directory?"
-Verbose mode:
-uv run main.py "run the tests" --verbose
+    -Run a question through the agent:
+    -uv run main.py "what files are in the calculator directory?"
+    -Verbose mode:
+    -uv run main.py "run the tests" --verbose
 
 🔐 Safety & Design Principles
 
-    No shell access
-    Directory sandboxing
-    Explicit allow-listed tools only
-    Structured inputs and outputs
-    Model is never trusted to execute code directly
+    -No shell access
+    -Directory sandboxing
+    -Explicit allow-listed tools only
+    -Structured inputs and outputs
+    -Model is never trusted to execute code directly
 
 🎯 Why This Matters
 
