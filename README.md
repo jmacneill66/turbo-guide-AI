@@ -24,7 +24,6 @@ This project demonstrates **agentic AI architecture**, not just prompt engineeri
 4. Tool results are fed back to the model
 5. The loop continues until a final answer is produced
 
-```mermaid
 flowchart LR
     User --> Agent --> Gemini
     Gemini -->|Tool Call| Tools
