@@ -32,20 +32,20 @@ flowchart LR
 
 🛠️ Key Features
 
-    Gemini 2.5 Flash integration
-    Explicit tool schemas (no arbitrary code execution)
-    Iteration limits to prevent infinite loops
-    Sandboxed file and Python execution
-    Unit-tested tool layer
-    CLI-first design for transparency
+    -Gemini 2.5 Flash integration
+    -Explicit tool schemas (no arbitrary code execution)
+    -Iteration limits to prevent infinite loops
+    -Sandboxed file and Python execution
+    -Unit-tested tool layer
+    -CLI-first design for transparency
 
 📁 Project Structure
 
-main.py        # Agent loop + CLI entry point
-functions/     # LLM-callable tools
-prompts.py     # System instructions
-config.py      # Shared configuration
-tests/         # Tool tests
+-main.py        # Agent loop + CLI entry point  
+-functions/     # LLM-callable tools
+-prompts.py     # System instructions
+-config.py      # Shared configuration
+-tests/         # Tool tests
 
 ▶️ Example Usage
 
@@ -65,9 +65,9 @@ uv run main.py "run the tests" --verbose
 🎯 Why This Matters
 
 This project shows how to move from LLM demos to production-style AI systems that are:
-    Safer
-    More predictable
-    Easier to test and maintain
+    -Safer
+    -More predictable
+    -Easier to test and maintain
 It reflects real-world concerns in applied AI engineering: observability, control, and security.
 
 📜 License
