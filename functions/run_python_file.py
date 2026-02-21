@@ -27,12 +27,11 @@ def run_python_file(working_directory, file_path, args=None):
     Run a Python file safely inside working_directory with optional args.
     Returns a string describing the output, errors, and exit code.
     """
-
     try:
         # Resolve absolute paths
         working_dir_abs = os.path.abspath(working_directory)
         target_path = os.path.normpath(os.path.join(working_dir_abs, file_path))
-
+        
         # Security check: must stay inside working directory
         if os.path.commonpath([working_dir_abs, target_path]) != working_dir_abs:
             return f'Error: Cannot execute "{file_path}" as it is outside the permitted working directory'
